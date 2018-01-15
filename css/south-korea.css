@@ -1,0 +1,85 @@
+#south-korea {
+    position: relative;
+    background: #fff;
+    width: 22.5em;
+    height: 15em;
+}
+
+    #south-korea .yinyang {
+        position: relative;
+        top: 3.75em;
+        left: 7.5em;
+        width: 7.5em;
+        height: 7.5em;
+        border-radius: 50%;
+        background: -webkit-linear-gradient(#c60c30 50%, #003478 0); /* Safari 5.1-6.0 */
+        background: -o-linear-gradient(#c60c30 50%, #003478 0); /* Opera 11.1-12.0 */
+        background: -moz-linear-gradient(#c60c30 50%, #003478 0); /* Firefox 3.6-15 */
+        background: linear-gradient(#c60c30 50%, #003478 0); /* Standard syntax */
+        -ms-transform: rotate(35deg); /* IE 9 */
+        -webkit-transform: rotate(35deg); /* Chrome, Safari, Opera */
+        transform: rotate(35deg);
+    }
+
+        #south-korea .yinyang:before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            margin-top: -25%;
+            left: 0;
+            width: 50%;
+            height: 50%;
+            background: #c60c30;
+            border-radius: 50%;
+        }
+
+        #south-korea .yinyang:after {
+            content: "";
+            position: absolute;
+            bottom: 50%;
+            margin-bottom: -25%;
+            left: 50%;
+            width: 50%;
+            height: 50%;
+            background: #003478;
+            border-radius: 50%;
+        }
+
+    #south-korea .stripes {
+        height: 2.5em;
+        width: 3.75em;
+    }
+
+        #south-korea .stripes.stripes1 {
+            top: 2.5em;
+            left: 3.65em;
+            background-image: linear-gradient(#000 22%,#fff 22%,#fff 39%,#000 39%,#000 61%,#fff 61%,#fff 78%,#000 78%);
+            transform: rotate(-56deg);
+        }
+
+        #south-korea .stripes.stripes2 {
+            top: 2.4em;
+            left: 15.1em;
+            background-image: linear-gradient(#fff 25%,transparent 25%,transparent 75%,#fff 75%),linear-gradient(#000 22%,#fff 22%,#fff 39%,#000 39%,#000 61%,#fff 61%,#fff 78%,#000 78%);
+            background-size: 13% 100%;
+            background-position: 50% 0,0 0;
+            background-repeat: no-repeat,repeat;
+            transform: rotate(56deg);
+        }
+
+        #south-korea .stripes.stripes3 {
+            top: 10.1em;
+            left: 3.65em;
+            background-image: linear-gradient(90deg,transparent 43%,#fff 43%,#fff 53%,transparent 53%),linear-gradient(#000 22%,#fff 22%,#fff 39%,#000 39%,#000 61%,#fff 61%,#fff 78%,#000 78%);
+            background-size: 3.9em 1.1em,3.9em 2.5em;
+            background-position: 0 .7em,0 0;
+            background-repeat: no-repeat,repeat;
+            transform: rotate(56deg);
+        }
+
+        #south-korea .stripes.stripes4 {
+            top: 10.1em;
+            left: 15.1em;
+            background-image: linear-gradient(90deg,transparent 46%,#fff 46%,#fff 56%,transparent 56%),linear-gradient(#000 22%,#fff 22%,#fff 39%,#000 39%,#000 61%,#fff 61%,#fff 78%,#000 78%);
+            transform: rotate(-56deg);
+        }

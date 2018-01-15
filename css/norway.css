@@ -1,0 +1,11 @@
+#norway {
+    background-color: #ef2b2d;
+    background-image: -webkit-linear-gradient(#002868 1.6em,transparent 1.6em),linear-gradient(90deg,#002868 1.6em,transparent 1.6em),linear-gradient(#fff 3.2em,transparent 3.2em),linear-gradient(90deg,#fff 3.2em,transparent 3.2em);
+    background-image: -o-linear-gradient(#002868 1.6em,transparent 1.6em),linear-gradient(90deg,#002868 1.6em,transparent 1.6em),linear-gradient(#fff 3.2em,transparent 3.2em),linear-gradient(90deg,#fff 3.2em,transparent 3.2em);
+    background-image: -moz-linear-gradient(#002868 1.6em,transparent 1.6em),linear-gradient(90deg,#002868 1.6em,transparent 1.6em),linear-gradient(#fff 3.2em,transparent 3.2em),linear-gradient(90deg,#fff 3.2em,transparent 3.2em);
+    background-image: linear-gradient(transparent 6.7em,#002868 6.7em),linear-gradient(90deg,transparent 6.7em,#002868 6.7em),linear-gradient(transparent 5.9em,#fff 5.9em),linear-gradient(90deg,transparent 5.9em,#fff 5.9em);
+    background-size: 20.9em 8.3em,8.3em 15em,20.9em 9.1em,9.1em 15em;
+    background-repeat: no-repeat;
+    width: 20.9em;
+    height: 15em;
+}

@@ -1,0 +1,166 @@
+﻿#br-ap {
+    background-color: #00994c;
+    width: 21.428em;
+    height: 15em;
+    position: relative;
+}
+
+.t1, .t2, .t3, .blue,
+.t4, .t5, .t6, .yellow {
+    height: 0;
+    width: 21.428em;
+    position: absolute;
+    overflow: hidden;
+}
+
+.t1, .t2, .t3, .blue {
+    top: 0;
+}
+
+.t4, .t5, .t6, .yellow {
+    bottom: 0;
+}
+
+.t1 {
+    left: 0;
+    border-top: 5.35em solid #000;
+    border-left: 5.35em solid transparent;
+    border-right: 5.35em solid transparent;
+    clip: rect(0, 21.42em, 5.35em, 0);
+}
+
+.t2 {
+    left: .5em;
+    border-top: 5em solid #fff;
+    border-left: 5em solid transparent;
+    border-right: 5em solid transparent;
+    clip: rect(0, 20.92em, 5em, 0);
+}
+
+.t3 {
+    left: 1em;
+    border-top: 4.65em solid #000;
+    border-left: 4.65em solid transparent;
+    border-right: 4.65em solid transparent;
+    clip: rect(0, 20.42em, 4.65em, 0);
+}
+
+.blue {
+    left: 1.5em;
+    border-top: 4.3em solid #002580;
+    border-left: 4.3em solid transparent;
+    border-right: 4.3em solid transparent;
+    clip: rect(0, 19.92em, 4.3em, 0);
+}
+
+.t4 {
+    left: 0;
+    border-bottom: 5.35em solid #000;
+    border-left: 5.35em solid transparent;
+    border-right: 5.35em solid transparent;
+    clip: rect(0, 21.42em, 5.35em, 0);
+}
+
+.t5 {
+    left: .5em;
+    border-bottom: 5em solid #fff;
+    border-left: 5em solid transparent;
+    border-right: 5em solid transparent;
+    clip: rect(0, 20.92em, 5em, 0);
+}
+
+.t6 {
+    left: 1em;
+    border-bottom: 4.65em solid #000;
+    border-left: 4.65em solid transparent;
+    border-right: 4.65em solid transparent;
+    clip: rect(0, 20.42em, 4.65em, 0);
+}
+
+.yellow {
+    left: 1.5em;
+    border-bottom: 4.3em solid #f3e718;
+    border-left: 4.3em solid transparent;
+    border-right: 4.3em solid transparent;
+    clip: rect(0, 19.92em, 4.3em, 0);
+}
+
+.sq1 {
+    left: 2.55em;
+    top: 6.55em;
+    width: 1.7em;
+    height: 1.7em;
+    background-color: #fff;
+    transform: rotate(45deg);
+    border: #000 .1em solid;
+}
+
+.sq2 {
+    left: 2.91em;
+    top: 6.9em;
+    width: 1em;
+    height: 1em;
+    background-color: #038301;
+    transform: rotate(45deg);
+    border: #000 .1em solid;
+}
+
+.diamond:after {
+    content: '◆';
+    font-size: 1.4em;
+    color: #000;
+}
+
+.diamond span:after {
+    content: '⯁';
+    color: #fff;
+    font-size: 1em;
+}
+
+.diamond-left {
+    left: 1.57em;
+    top: 6.475em;
+}
+
+    .diamond-left span {
+        top: .3em;
+        left: .15em;
+    }
+
+.diamond-right {
+    left: 4.25em;
+    top: 6.475em;
+}
+
+    .diamond-right span {
+        top: .3em;
+        left: .15em;
+    }
+
+.diamond-top {
+    left: 2.91em;
+    top: 5.128em;
+}
+
+    .diamond-top span {
+        top: .3em;
+        left: .15em;
+    }
+
+.diamond-bottom {
+    left: 2.91em;
+    top: 7.82em;
+}
+
+    .diamond-bottom span {
+        top: .3em;
+        left: .15em;
+    }
+
+.clip {
+    width: 21.428em;
+    height: 15em;
+    top: 0;
+    left: 0;
+    clip: rect(0, 15em, 21.428em, 0);
+}

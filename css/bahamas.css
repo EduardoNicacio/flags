@@ -1,0 +1,19 @@
+#bahamas {
+    position: relative;
+    background-image: -webkit-linear-gradient(rgb(0,204,204) 33.3333%.33.3333%,rgb(255,204,0) 33.3333%.33.3333%,rgb(255,204,0) 66.66.66%,rgb(0,204,204) 66.66.66%);
+    background-image: -o-linear-gradient(rgb(0,204,204) 33.3333%,rgb(255,204,0) 33.3333%,rgb(255,204,0) 66.6667%,rgb(0,204,204) 66.6667%);
+    background-image: -moz-linear-gradient(rgb(0,204,204) 33.3333%,rgb(255,204,0) 33.3333%,rgb(255,204,0) 66.6667%,rgb(0,204,204) 66.6667%);
+    background-image: linear-gradient(rgb(0,204,204) 33.3333%,rgb(255,204,0) 33.3333%,rgb(255,204,0) 66.6667%,rgb(0,204,204) 66.6667%);
+    width: 25em;
+    height: 12.5em;
+}
+
+    #bahamas .triangle {
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-top: 6.25em solid transparent;
+        border-bottom: 6.25em solid transparent;
+        border-left: 10em solid #000;
+    }

@@ -1,0 +1,10 @@
+.flag {
+    margin: 0 auto;
+    box-shadow: #999 0 0 .25em;
+}
+
+    .flag * {
+        position: absolute;
+        box-sizing: content-box;
+        -moz-box-sizing: content-box;
+    }

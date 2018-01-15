@@ -1,0 +1,75 @@
+﻿#br-df {
+    background-color: #fff;
+    width: 21.428em;
+    height: 15em;
+    position: relative;
+}
+
+.green-square {
+    width: 7.5em;
+    height: 7.5em;
+    background-color: #00923f;
+    top: 3.75em;
+    left: 6.964em;
+    position: absolute;
+}
+
+.arrow:after {
+    content: '➞';
+    position: absolute;
+    color: #f8c300;
+    font-size: 250%;
+    line-height: 100%;
+}
+
+.arrow-top {
+    transform: rotate(-90deg);
+    top: 2.5em;
+    margin-left: 2.5em;
+}
+
+.arrow-bottom {
+    transform: rotate(90deg);
+    top: 5em;
+    margin-left: 5em;
+}
+
+.arrow-left {
+    transform: rotate(180deg);
+    top: 5em;
+    margin-left: 2.5em;
+}
+
+.arrow-right {
+    top: 2.5em;
+    margin-left: 5em;
+}
+
+.block:after {
+    content: '▎';
+    position: absolute;
+    color: #f8c300;
+    font-size: 404%;
+    line-height: 100%;
+}
+
+.block-top-bottom {
+    top: 1.5em;
+    left: 3.23em;
+}
+
+.block-left-right {
+    transform: rotate(90deg);
+    top: 3.24em;
+    left: 6em;
+}
+
+.square {
+    background-color: #00923f;
+    height: 1.5em;
+    width: 1.5em;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 3em;
+    top: 3em;
+}

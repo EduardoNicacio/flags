@@ -1,0 +1,18 @@
+﻿#paraguay {
+    background-image: -webkit-linear-gradient(#d52b1e 33.3333%,#ffffff 33.3333%,#ffffff 66.6667%,#0038a8 66.6667%);
+    background-image: -o-linear-gradient(#d52b1e 33.3333%,#ffffff 33.3333%,#ffffff 66.6667%,#0038a8 66.6667%);
+    background-image: -moz-linear-gradient(#d52b1e 33.3333%,#ffffff 33.3333%,#ffffff 66.6667%,#0038a8 66.6667%);
+    background-image: linear-gradient(#d52b1e 33.3333%,#ffffff 33.3333%,#ffffff 66.6667%,#0038a8 66.6667%);
+    width: 20em;
+    height: 11em;
+    position: relative;
+}
+
+.coat-of-arms {
+    height: 2.85em;
+    width: 2.85em;
+    top: 4.075em;
+    left: 50%;
+    margin-left: -1.425em;
+    position: absolute;
+}

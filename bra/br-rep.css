@@ -1,0 +1,57 @@
+﻿#br-rep {
+    background-color: #ffd500;
+    background-image: linear-gradient(#56a134 7.69%, transparent 7.69%, transparent 15.38%, #56a134 15.38%, #56a134 23.07%, transparent 23.07%, transparent 30.77%, #56a134 30.77%, #56a134 38.46%, transparent 38.46%, transparent 46.15%, #56a134 46.15%, #56a134 53.85%, transparent 53.85%, transparent 61.54%, #56a134 61.54%, #56a134 69.23%, transparent 69.23%, transparent 76.92%, #56a134 76.92%, #56a134 84.61%, transparent 84.61%, transparent 92.31%, #56a134 92.31%);
+    width: 22.5em;
+    height: 15em;
+    position: relative;
+}
+
+    #br-rep .square {
+        width: 7.5em;
+        height: 5.77em;
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: #0b1097;
+    }
+
+    #br-rep .row {
+        color: white;
+        display: block;
+        font-size: 1.2em;
+        line-height: 100%;
+        letter-spacing: .21em;
+    }
+
+        #br-rep .row:nth-child(1n+0) {
+            line-height: 155%;
+            margin-left: 18.2%;
+        }
+
+        #br-rep .row:nth-child(2n+0) {
+            line-height: 315%;
+            margin-left: 18.2%;
+        }
+
+        #br-rep .row:nth-child(3n+0) {
+            line-height: 475%;
+            margin-left: 18.2%;
+        }
+
+        #br-rep .row:nth-child(4n+0) {
+            line-height: 635%;
+            margin-left: 18.2%;
+        }
+
+        #br-rep .row:nth-child(5n+0) {
+            line-height: 795%;
+            margin-left: 10%;
+        }
+
+    #br-rep .row-4:after {
+        content: '★★★★';
+    }
+
+    #br-rep .row-5:after {
+        content: '★★★★★';
+    }

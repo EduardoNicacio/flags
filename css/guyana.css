@@ -1,0 +1,6 @@
+﻿#guyana {
+    background: linear-gradient(149deg, #ce1126 22.25%, transparent 15%) 0 -7.5em, linear-gradient(31deg, #ce1126 22.25%, transparent 15%) 0 -7.5em, linear-gradient(149deg, #000 25%, transparent 15%) 0 -7.5em, linear-gradient(31deg, #000 25%, transparent 15%) 0 -7.5em, linear-gradient(163.5deg, #fcd116 30.5%, transparent 15%) 0 -7.5em, linear-gradient(16.5deg, #fcd116 30.5%, transparent 15%) 0 -7.5em, linear-gradient(163.25deg, #fff 33.5%, transparent 15%) 0 -7.5em, linear-gradient(16.75deg, #fff 33.5%, transparent 15%) 0 -7.5em, #009e49;
+    width: 25em;
+    height: 15em;
+    position: relative;
+}

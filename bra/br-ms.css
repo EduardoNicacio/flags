@@ -1,0 +1,16 @@
+﻿#br-ms {
+    background-color: #6699fe;
+    background-image: linear-gradient(135deg, #00923f 30%, #fff 30%, #fff 41.2%, transparent 41.2%);
+    width: 21.42em;
+    height: 15em;
+    position: relative;
+}
+
+    #br-ms:after {
+        content: '★';
+        color: #ffff00;
+        right: .165em;
+        bottom: .02em;
+        position: absolute;
+        font-size: 550%;
+    }

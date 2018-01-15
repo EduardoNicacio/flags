@@ -1,0 +1,48 @@
+#tunisia {
+    position: relative;
+    background: #e70013;
+    width: 22.5em;
+    height: 15em;
+}
+
+    #tunisia .middle {
+        display: block;
+        width: 7.5em;
+        top: 3.8em;
+        left: 7.5em;
+        height: 7.5em;
+        background: #fff;
+        border-radius: 50%;
+    }
+
+    #tunisia .moon {
+        display: block;
+        width: 5.6em;
+        top: .9em;
+        left: .9em;
+        height: 5.6em;
+        background: #e70013;
+        border-radius: 50%;
+    }
+
+    #tunisia .moon-clip {
+        display: block;
+        width: 4.5em;
+        top: 1.4em;
+        left: 2.225em;
+        height: 4.5em;
+        background: #fff;
+        border-radius: 50%;
+    }
+
+        #tunisia .moon-clip span {
+            -ms-transform: rotate(-18deg);
+            -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+            color:#e70013;
+            font-size: 4.3em;
+            position: absolute;
+            top: .0075em;
+            left: 0.1em;
+            line-height: 100%;
+        }

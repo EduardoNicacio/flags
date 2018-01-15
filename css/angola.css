@@ -1,0 +1,14 @@
+﻿#angola {
+    background-image: linear-gradient(#ef2a00 50%, #000 50%);
+    width: 22.5em;
+    height: 15em;
+    position: relative;
+}
+
+    #angola .emblem {
+        height: 9.5em;
+        width: 7.335em;
+        top: 2.5em;
+        left: 7.5825em;
+        position: absolute;
+    }

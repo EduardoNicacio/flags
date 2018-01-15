@@ -1,0 +1,11 @@
+#iceland {
+    background-color: #003897;
+    background-image: -webkit-linear-gradient(#d72828 1.6em,transparent 1.6em),linear-gradient(90deg,#d72828 1.6em,transparent 1.6em),linear-gradient(#fff 3.2em,transparent 3.2em),linear-gradient(90deg,#fff 3.2em,transparent 3.2em);
+    background-image: -o-linear-gradient(#d72828 1.6em,transparent 1.6em),linear-gradient(90deg,#d72828 1.6em,transparent 1.6em),linear-gradient(#fff 3.2em,transparent 3.2em),linear-gradient(90deg,#fff 3.2em,transparent 3.2em);
+    background-image: -moz-linear-gradient(#d72828 1.6em,transparent 1.6em),linear-gradient(90deg,#d72828 1.6em,transparent 1.6em),linear-gradient(#fff 3.2em,transparent 3.2em),linear-gradient(90deg,#fff 3.2em,transparent 3.2em);
+    background-image: linear-gradient(#d72828 1.6em,transparent 1.6em),linear-gradient(90deg,#d72828 1.6em,transparent 1.6em),linear-gradient(#fff 3.2em,transparent 3.2em),linear-gradient(90deg,#fff 3.2em,transparent 3.2em);
+    background-size: 12.1em 9.1em,14.3em 9.1em,2.1em 9.1em,16.5em 9.1em;
+    background-position: -2.4em -2.4em,-7.7em -2.4em,-3.2em -3.2em,-10.7em -3.2em;
+    width: 20.9em;
+    height: 15em;
+}

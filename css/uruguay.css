@@ -1,0 +1,18 @@
+#uruguay {
+    background-image: -webkit-linear-gradient(90deg,#fff 0,#fff 36.6%,transparent 36.6%),-webkit-linear-gradient(transparent 22.5%,#fff 22.5%,#fff 33.3333%,transparent 33.3333%),-webkit-linear-gradient(#fff 50%,#fff 50%),-webkit-linear-gradient(#fff 50%,#0038a8 50%);
+    background-image: -o-linear-gradient(90deg,#fff 0,#fff 36.6%,transparent 36.6%),-o-linear-gradient(transparent 22.5%,#fff 22.5%,#fff 33.3333%,transparent 33.3333%),-o-linear-gradient(#fff 50%,#fff 50%),-o-linear-gradient(#fff 50%,#0038a8 50%);
+    background-image: -moz-linear-gradient(90deg,#fff 0,#fff 36.6%,transparent 36.6%),-moz-linear-gradient(transparent 22.5%,#fff 22.5%,#fff 33.3333%,transparent 33.3333%),-moz-linear-gradient(#fff 50%,#fff 50%),-moz-linear-gradient(#fff 50%,#0038a8 50%);
+    background-image: linear-gradient(90deg,#fff 0,#fff 36.6%,transparent 36.6%),linear-gradient(transparent 22.5%,#fff 22.5%,#fff 33.3333%,transparent 33.3333%),linear-gradient(#fff 50%,#fff 50%),linear-gradient(#fff 50%,#0038a8 50%);
+    background-size: 100% 56.3%,36.6% 100%,36.6% 56.3%,100% 22.5%;
+    background-repeat: no-repeat,no-repeat,no-repeat,repeat;
+    width: 22.5em;
+    height: 15em;
+}
+
+.sun-of-may {
+    height: 6.4em;
+    width: 6.4em;
+    top: .95em;
+    left: .95em;
+    position: relative;
+}

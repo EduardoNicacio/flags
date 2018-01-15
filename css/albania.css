@@ -1,0 +1,14 @@
+﻿#albania {
+    background-color: rgb(228,30,32);
+    width: 21em;
+    height: 15em;
+    position: relative;
+}
+
+    #albania .eagle {
+        height: 10em;
+        width: 9em;
+        top: 2.35em;
+        left: 5.92815em;
+        position: absolute;
+    }

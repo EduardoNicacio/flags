@@ -1,0 +1,61 @@
+﻿#us-ak {
+    background-color: #0f204b;
+    width: 21.239em;
+    height: 15em;
+    position: relative;
+}
+
+.star:after {
+    content: '★';
+    color: #ffb612;
+    line-height: 100%;
+}
+
+.star-sm {
+    font-size: 1.2em;
+}
+
+.star-lg {
+    font-size: 2em;
+    left: 50%;
+}
+
+.star-0 {
+    top: .76em;
+    left: 8.27em;
+}
+
+.star-1 {
+    top: 4.34em;
+    left: 2.45em;
+}
+
+.star-2 {
+    top: 5.11em;
+    left: 4.53em;
+}
+
+.star-3 {
+    top: 6.22em;
+    left: 5.57em;
+}
+
+.star-4 {
+    top: 7.39em;
+    left: 6.62em;
+}
+
+.star-5 {
+    top: 9.02em;
+    left: 6.48em;
+}
+
+.star-6 {
+    top: 9.8em;
+    left: 8.84em;
+}
+
+.star-7 {
+    top: 8.5em;
+    left: 9.75em;
+}

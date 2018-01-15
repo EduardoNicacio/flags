@@ -1,0 +1,15 @@
+#vietnam {
+    position: relative;
+    background-color: #e21c1c;
+    width: 22.5em;
+    height: 15em;
+}
+
+    #vietnam .star {
+        color: #ffff00;
+        font-size: 11.5em;
+        line-height: 100%;
+        top: .12em;
+        left: .565em;
+        position: absolute;
+    }

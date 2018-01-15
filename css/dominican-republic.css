@@ -1,0 +1,9 @@
+#dominican-republic {
+    background-color: #002d62;
+    background-image: linear-gradient(#fff 3em,transparent 3em),linear-gradient(90deg,#fff 3em,transparent 3em),linear-gradient(90deg,#ce1126 11.1em,transparent 11.1em),linear-gradient(90deg,transparent 11.1em,#ce1126 11.1em);
+    background-size: 25em 9.3em,14em 15.6em,25em 6.3em,25em 6.3em;
+    background-position: 0 -3em,-3em 0,0 9.3em,0 0;
+    background-repeat: repeat,repeat,no-repeat,no-repeat;
+    width: 25em;
+    height: 15.6em;
+}

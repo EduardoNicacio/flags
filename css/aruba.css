@@ -1,0 +1,25 @@
+﻿#aruba {
+    background-color: #4189dd;
+    background-image: linear-gradient(transparent 66.6667%, #f9d616 66.6667%, #f9d616 72.2222%, #4189dd 72.2222%, #4189dd 77.7777%, #f9d616 77.7777%, #f9d616 83.3332%, transparent 83.3332%);
+    width: 22.5em;
+    height: 15em;
+    position: relative;
+}
+
+    #aruba .star {
+        font-size: 7.1em;
+        line-height: 100%;
+        top: -.0675em;
+        left: .06em;
+        font-family: u1f400;
+    }
+
+        #aruba .star.star-white {
+            color: #fff;
+        }
+
+        #aruba .star.star-red {
+            color: #d21034;
+            transform: scale(.75);
+            margin-top: .0075em;
+        }

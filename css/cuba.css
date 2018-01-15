@@ -1,0 +1,68 @@
+#cuba {
+    position: relative;
+    background-image: -webkit-linear-gradient(#002a8f 20%,#fff 20%,#fff 40%,#002a8f 40%,#002a8f 60%,#fff 60%,#fff 80%,#002a8f 80%);
+    background-image: -o-linear-gradient(#002a8f 20%,#fff 20%,#fff 40%,#002a8f 40%,#002a8f 60%,#fff 60%,#fff 80%,#002a8f 80%);
+    background-image: -moz-linear-gradient(#002a8f 20%,#fff 20%,#fff 40%,#002a8f 40%,#002a8f 60%,#fff 60%,#fff 80%,#002a8f 80%);
+    background-image: linear-gradient(#002a8f 20%,#fff 20%,#fff 40%,#002a8f 40%,#002a8f 60%,#fff 60%,#fff 80%,#002a8f 80%);
+    width: 30em;
+    height: 15em;
+}
+
+    #cuba .triangle {
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-top: 7.5em solid transparent;
+        border-bottom: 7.5em solid transparent;
+        border-left: 13em solid #cf142b;
+    }
+
+    #cuba .star {
+        display: block;
+        top: 5.7em;
+        left: -.6em;
+        width: 0;
+        height: 0;
+        border-right: 5em solid transparent;
+        border-bottom: 3.5em solid #fff;
+        border-left: 5em solid transparent;
+        -moz-transform: rotate(35deg) scale(0.42,.42);
+        -webkit-transform: rotate(35deg) scale(0.42,.42);
+        -ms-transform: rotate(35deg) scale(0.42,.42);
+        -o-transform: rotate(35deg) scale(0.42,.42);
+    }
+
+        #cuba .star:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: -2.25em;
+            left: -3.1em;
+            height: 0;
+            width: 0;
+            border-bottom: 4em solid #fff;
+            border-left: 1.5em solid transparent;
+            border-right: 1.5em solid transparent;
+            -webkit-transform: rotate(-35deg);
+            -moz-transform: rotate(-35deg);
+            -ms-transform: rotate(-35deg);
+            -o-transform: rotate(-35deg);
+        }
+
+        #cuba .star:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: .20em;
+            left: -5.28em;
+            width: 0;
+            height: 0;
+            border-right: 5em solid transparent;
+            border-bottom: 3.5em solid #fff;
+            border-left: 5em solid transparent;
+            -webkit-transform: rotate(-70deg);
+            -moz-transform: rotate(-70deg);
+            -ms-transform: rotate(-70deg);
+            -o-transform: rotate(-70deg);
+        }

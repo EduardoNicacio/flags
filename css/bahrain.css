@@ -1,0 +1,17 @@
+﻿#bahrain {
+    background: linear-gradient(90deg, white, white 25%, #ce1126 25%, #ce1126 100%);
+    position: relative;
+    width: 25em;
+    height: 15em;
+}
+
+    #bahrain:before {
+        position: absolute;
+        content: "";
+        width: 5em;
+        height: 100%;
+        background: linear-gradient(160deg, #fff 25%, transparent 25%) 0 1.5em, linear-gradient(20deg, #fff 25%, transparent 25%) 0 4.5em;
+        background-size: 8.1em 3em;
+        left: 6.2em;
+        top: 0;
+    }

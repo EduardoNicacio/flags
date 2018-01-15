@@ -1,0 +1,13 @@
+﻿#barbados {
+    background-image: linear-gradient(90deg, #00267f 33.3333%, #ffc726 33.3333%, #ffc726 66.6667%, #00267f 66.6667%);
+    width: 22.5em;
+    height: 15em;
+    position: relative;
+}
+
+    #barbados .trident {
+        height: 7.4em;
+        top: 3.8em;
+        left: 34.5%;
+        position: absolute;
+    }

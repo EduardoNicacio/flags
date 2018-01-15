@@ -1,0 +1,8 @@
+#bulgaria {
+    background-image: -webkit-linear-gradient(#fff 33.3333%,#00966e 33.3333%,#00966e 66.6667%,#d62612 66.6667%);
+    background-image: -o-linear-gradient(#fff 33.3333%,#00966e 33.3333%,#00966e 66.6667%,#d62612 66.6667%);
+    background-image: -moz-linear-gradient(#fff 33.3333%,#00966e 33.3333%,#00966e 66.6667%,#d62612 66.6667%);
+    background-image: linear-gradient(#fff 33.3333%,#00966e 33.3333%,#00966e 66.6667%,#d62612 66.6667%);
+    width: 25em;
+    height: 15em;
+}

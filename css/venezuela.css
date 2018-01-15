@@ -1,0 +1,68 @@
+﻿#venezuela {
+    background-image: -webkit-linear-gradient(#fcd116 33.3333%,#003893 33.3333%,#003893 66.6667%,#ce1126 66.6667%);
+    background-image: -o-linear-gradient(#fcd116 33.3333%,#003893 33.3333%,#003893 66.6667%,#ce1126 66.6667%);
+    background-image: -moz-linear-gradient(#fcd116 33.3333%,#003893 33.3333%,#003893 66.6667%,#ce1126 66.6667%);
+    background-image: linear-gradient(#fcd116 33.3333%,#003893 33.3333%,#003893 66.6667%,#ce1126 66.6667%);
+    position: relative;
+    width: 22.5em;
+    height: 15em;
+}
+
+    #venezuela .star {
+        color: #fff;
+        font-size: 1.6em;
+        position: absolute;
+        z-index: 99;
+    }
+
+    #venezuela .star:before {
+            content: '★';
+        }
+
+        #venezuela .star.star-1 {
+            top: 4.9em;
+            left: 4.07em;
+            -webkit-transform: rotate(73deg);
+        }
+
+        #venezuela .star.star-2 {
+            top: 4em;
+            left: 4.5em;
+            -webkit-transform: rotate(22deg);
+        }
+
+        #venezuela .star.star-3 {
+            top: 3.38em;
+            left: 5.27em;
+            -webkit-transform: rotate(42deg);
+        }
+
+        #venezuela .star.star-4 {
+            top: 3.08em;
+            left: 6.21em;
+            -webkit-transform: rotate(62deg);
+        }
+
+        #venezuela .star.star-5 {
+            top: 3.08em;
+            left: 7.03em;
+            -webkit-transform: rotate(-62deg);
+        }
+
+        #venezuela .star.star-6 {
+            top: 3.38em;
+            left: 7.97em;
+            -webkit-transform: rotate(-42deg);
+        }
+
+        #venezuela .star.star-7 {
+            top: 4em;
+            left: 8.75em;
+            -webkit-transform: rotate(-22deg);
+        }
+
+        #venezuela .star.star-8 {
+            top: 4.9em;
+            left: 9.17em;
+            -webkit-transform: rotate(-73deg);
+        }

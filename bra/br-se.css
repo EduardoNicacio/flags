@@ -1,0 +1,52 @@
+﻿#br-se {
+    width: 21.428em;
+    height: 15em;
+    position: relative;
+    background-color: #00923f;
+    background-image: linear-gradient(transparent 25%, #f8c300 25%, #f8c300 50%, transparent 50%, transparent 75%, #f8c300 75%);
+}
+
+    #br-se .square {
+        top: 0;
+        left: 0;
+        width: 7.5em;
+        height: 7.5em;
+        position: absolute;
+        background-color: #28166f;
+    }
+
+        #br-se .square:after {
+            content: '★';
+            color: #fff;
+            line-height: 160%;
+            font-size: 4.5em;
+            margin-left: 25%;
+        }
+
+.star {
+    font-size: 2.2em;
+    color: #fff;
+    line-height: 110%;
+}
+
+    .star:after {
+        content: '★';
+    }
+
+.star-1 {
+    margin-left: 1.75%;
+}
+
+.star-2 {
+    margin-left: 24.8%;
+}
+
+.star-3 {
+    margin-left: 1.75%;
+    line-height: 560%;
+}
+
+.star-4 {
+    margin-left: 24.8%;
+    line-height: 560%;
+}

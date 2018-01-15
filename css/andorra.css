@@ -1,0 +1,14 @@
+﻿#andorra {
+    background-image: linear-gradient(90deg, #0018a8 32%, #fedf00 32%, #fedf00 68%, #d0103a 68%);
+    width: 20em;
+    height: 14em;
+    position: relative;
+}
+
+    #andorra .coat-of-arms {
+        width: 5.6em;
+        height: 6.04em;
+        left: 7.2em;
+        top: 3.98em;
+        transform: scale(1.07);
+    }

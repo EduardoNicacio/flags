@@ -1,0 +1,16 @@
+#finland {
+    background-color: #fff;
+    background-image: linear-gradient(transparent 5.4em,#003580 5.4em),linear-gradient(90deg,transparent 6.8em,#003580 6.8em);
+    background-size: 24.6em 9.6em,11em 15em;
+    background-repeat: no-repeat;
+    width: 24.6em;
+    height: 15em;
+}
+
+.coat-of-arms {
+    top: 5.4em;
+    left: 6.8em;
+    width: 4.2em;
+    height: 4.2em;
+    position: relative;
+}

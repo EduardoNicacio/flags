@@ -1,0 +1,10 @@
+#greece {
+    background-image: -webkit-linear-gradient(90deg,transparent 15%,#fff 15%,#fff 22.5%,transparent 22.5%),-webkit-linear-gradient(transparent 22.5%,#fff 22.5%,#fff 33.3333%,transparent 33.3333%),-webkit-linear-gradient(#0d5eaf 50%,#0d5eaf 50%),-webkit-linear-gradient(#0d5eaf 50%,#fff 50%);
+    background-image: -o-linear-gradient(90deg,transparent 15%,#fff 15%,#fff 22.5%,transparent 22.5%),-o-linear-gradient(transparent 22.5%,#fff 22.5%,#fff 33.3333%,transparent 33.3333%),-o-linear-gradient(#0d5eaf 50%,#0d5eaf 50%),-o-linear-gradient(#0d5eaf 50%,#fff 50%);
+    background-image: -moz-linear-gradient(90deg,transparent 15%,#fff 15%,#fff 22.5%,transparent 22.5%),-moz-linear-gradient(transparent 22.5%,#fff 22.5%,#fff 33.3333%,transparent 33.3333%),-moz-linear-gradient(#0d5eaf 50%,#0d5eaf 50%),-moz-linear-gradient(#0d5eaf 50%,#fff 50%);
+    background-image: linear-gradient(90deg,transparent 15%,#fff 15%,#fff 22.5%,transparent 22.5%),linear-gradient(transparent 22.5%,#fff 22.5%,#fff 33.3333%,transparent 33.3333%),linear-gradient(#0d5eaf 50%,#0d5eaf 50%),linear-gradient(#0d5eaf 50%,#fff 50%);
+    background-size: 100% 56.3%,36.6% 100%,36.6% 56.3%,100% 22.5%;
+    background-repeat: no-repeat,no-repeat,no-repeat,repeat;
+    width: 22.5em;
+    height: 15em;
+}

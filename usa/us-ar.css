@@ -1,0 +1,59 @@
+﻿#us-ar {
+    background-color: #bf0a30;
+    width: 22.5em;
+    height: 15em;
+    position: relative;
+}
+
+.blue-top {
+    width: .001em;
+    height: .001em;
+    border: solid 9.4em transparent;
+    border-bottom: solid 6.2em #002868;
+    border-top-width: 0;
+    position: absolute;
+    bottom: 7.5em;
+    left: 1.8em;
+}
+
+.blue-bottom {
+    width: .001em;
+    height: .001em;
+    border: solid 9.4em transparent;
+    border-top: solid 6.2em #002868;
+    border-bottom-width: 0;
+    position: absolute;
+    top: 7.5em;
+    left: 1.8em;
+}
+
+.white-top {
+    width: .001em;
+    height: .001em;
+    border: solid 7em transparent;
+    border-bottom: solid 4.7em #fff;
+    border-top-width: 0;
+    position: absolute;
+    bottom: 7.5em;
+    left: 4.2em;
+}
+
+.white-bottom {
+    width: .001em;
+    height: .001em;
+    border: solid 7em transparent;
+    border-top: solid 4.7em #fff;
+    border-bottom-width: 0;
+    position: absolute;
+    top: 7.5em;
+    left: 4.2em;
+}
+
+.row div {
+    font-size: 1em;
+    color: #fff;
+}
+
+.row div:after {
+    content: '★';
+}

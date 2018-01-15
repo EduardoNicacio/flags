@@ -1,0 +1,21 @@
+#united-kingdom {
+    background-color: #00247d;
+    background-image: 
+        linear-gradient(#cf142b 3em,transparent 3em),
+        linear-gradient(90deg,#cf142b 3em,transparent 3em),
+        linear-gradient(#fff 5em,transparent 5em),
+        linear-gradient(90deg,#fff 5em,transparent 5em),
+        linear-gradient(25deg,transparent 3.5em,#cf142b 3.5em,#cf142b 4.5em,transparent 4.5em),
+        linear-gradient(25deg,transparent 3em,#fff 3em,#fff 5.5em,transparent 5.5em),
+        linear-gradient(-25deg,transparent 4.5em,#cf142b 4.5em,#cf142b 5.5em,transparent 5.5em),
+        linear-gradient(-25deg,transparent 3.5em,#fff 3.5em,#fff 6em,transparent 6em),
+        linear-gradient(-25deg,transparent 4.5em,#cf142b 4.5em,#cf142b 5.5em,transparent 5.5em),
+        linear-gradient(-25deg,transparent 4em,#fff 4em,#fff 6.5em,transparent 6.5em),
+        linear-gradient(25deg,transparent 5.5em,#cf142b 5.5em,#cf142b 6.5em,transparent 6.5em),
+        linear-gradient(25deg,transparent 4.5em,#fff 4.5em,#fff 7em,transparent 7em);
+    background-size: 30em 9em,16.5em 15em,30em 10em,17.5em 15em,12.5em 5em,12.5em 5em,12.5em 5em,12.5em 5em,12.5em 5em,12.5em 5em,12.5em 5em,12.5em 5em;
+    background-position: 0 -3em,-3em 0,0 -5em,-5em 0,0 0,0 0,17.5em 0,17.5em 0,0 10em,0 10em,17.5em 10em,17.5em 10em;
+    background-repeat: repeat,repeat,repeat,repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+    width: 30em;
+    height: 15em;
+}

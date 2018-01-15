@@ -1,0 +1,23 @@
+﻿/*
+    The dimensions of the flag of the Åland Islands are 16:3:4:3:26 horizontally and 12:3:4:3:12 vertically.
+*/
+#aland {
+    background-color: #0053a5;
+    background-image: 
+        linear-gradient(transparent 5.294em, #ffce00 5.294em, #ffce00 9.675em, transparent 9.675em), 
+        linear-gradient(90deg, transparent 7.058em, #ffce00 7.058em, #ffce00 11.47em, transparent 11.47em);
+    width: 22.94em;
+    height: 15em;
+    position: relative;
+}
+
+    #aland .red-cross {
+        background-image: 
+            linear-gradient(transparent 6.617em, #d21034 6.617em, #d21034 8.382em, transparent 8.382em), 
+            linear-gradient(90deg, transparent 8.382em, #d21034 8.382em, #d21034 10.146em, transparent 10.146em);
+        left: 0;
+        top: 0;
+        width: 22.94em;
+        height: 15em;
+        position: absolute;
+    }

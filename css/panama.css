@@ -1,0 +1,34 @@
+﻿#panama {
+    background: linear-gradient(90deg, #005293 50%, transparent 50%), linear-gradient(#d21034 50%, transparent 50%), white;
+    position: relative;
+    width: 22.5em;
+    height: 15em;
+}
+
+    #panama:before {
+        position: absolute;
+        content: "";
+        box-sizing: border-box;
+        background: #fff;
+        width: 11.25em;
+        height: 7.5em;
+    }
+
+    #panama .star:before {
+        content: "★";
+        font-size: 4.8em;
+        line-height: 100%;
+        z-index: 99;
+    }
+
+    #panama .star.star-blue {
+        color: #005293;
+        left: 3.625em;
+        top: 1.2em;
+    }
+
+    #panama .star.star-red {
+        color: #d21034;
+        left: 14.875em;
+        top: 8.675em;
+    }

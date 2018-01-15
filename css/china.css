@@ -1,0 +1,101 @@
+#china {
+    position: relative;
+    background: #de2910;
+    width: 22.5em;
+    height: 15em;
+}
+
+    #china .star {
+        display: block;
+        position: absolute;
+        top: 1.9em;
+        left: -1.2em;
+        width: 0;
+        height: 0;
+        border-right: 5em solid transparent;
+        border-bottom: 3.5em solid #ffde00;
+        border-left: 5em solid transparent;
+        -moz-transform: rotate(35deg) scale(0.45,.45);
+        -webkit-transform: rotate(35deg) scale(0.45,.45);
+        -ms-transform: rotate(35deg) scale(0.45,.45);
+        -o-transform: rotate(35deg) scale(0.45,.45);
+    }
+
+        #china .star:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: -2.3em;
+            left: -3.2em;
+            height: 0;
+            width: 0;
+            border-bottom: 4em solid #ffde00;
+            border-left: 1.5em solid transparent;
+            border-right: 1.5em solid transparent;
+            -webkit-transform: rotate(-35deg);
+            -moz-transform: rotate(-35deg);
+            -ms-transform: rotate(-35deg);
+            -o-transform: rotate(-35deg);
+        }
+
+        #china .star:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: .25em;
+            left: -5.35em;
+            width: 0;
+            height: 0;
+            border-right: 5em solid transparent;
+            border-bottom: 3.5em solid #ffde00;
+            border-left: 5em solid transparent;
+            -webkit-transform: rotate(-70deg);
+            -moz-transform: rotate(-70deg);
+            -ms-transform: rotate(-70deg);
+            -o-transform: rotate(-70deg);
+        }
+
+    #china .star-main {
+        top: 1.9em;
+        left: -1.2em;
+        -moz-transform: rotate(35deg) scale(0.45,.45);
+        -webkit-transform: rotate(35deg) scale(0.45,.45);
+        -ms-transform: rotate(35deg) scale(0.45,.45);
+        -o-transform: rotate(35deg) scale(0.45,.45);
+    }
+
+    #china .star-sub1 {
+        top: -.3em;
+        left: 2.5em;
+        -moz-transform: rotate(55deg) scale(0.12,.12);
+        -webkit-transform: rotate(55deg) scale(0.12,.12);
+        -ms-transform: rotate(55deg) scale(0.12,.12);
+        -o-transform: rotate(55deg) scale(0.12,.12);
+    }
+
+    #china .star-sub2 {
+        top: 1.2em;
+        left: 4em;
+        -moz-transform: rotate(10deg) scale(0.12,.12);
+        -webkit-transform: rotate(10deg) scale(0.12,.12);
+        -ms-transform: rotate(10deg) scale(0.12,.12);
+        -o-transform: rotate(10deg) scale(0.12,.12);
+    }
+
+    #china .star-sub3 {
+        top: 3.5em;
+        left: 4em;
+        -moz-transform: rotate(33deg) scale(0.12,.12);
+        -webkit-transform: rotate(33deg) scale(0.12,.12);
+        -ms-transform: rotate(33deg) scale(0.12,.12);
+        -o-transform: rotate(33deg) scale(0.12,.12);
+    }
+
+    #china .star-sub4 {
+        top: 5em;
+        left: 2.5em;
+        -moz-transform: rotate(35deg) scale(0.12,.12);
+        -webkit-transform: rotate(55deg) scale(0.12,.12);
+        -ms-transform: rotate(35deg) scale(0.12,.12);
+        -o-transform: rotate(35deg) scale(0.12,.12);
+    }

@@ -1,0 +1,17 @@
+#afghanistan {
+    background-image: -webkit-linear-gradient(90deg,#000 33.3333%,#d32011 33.3334%,#d32011 66.6666%,#007a36 66.6667%);
+    background-image: -o-linear-gradient(90deg,#000 33.3333%,#d32011 33.3334%,#d32011 66.6666%,#007a36 66.6667%);
+    background-image: -moz-linear-gradient(90deg,#000 33.3333%,#d32011 33.3334%,#d32011 66.6666%,#007a36 66.6667%);
+    background-image: linear-gradient(90deg,#000 33.3333%,#d32011 33.3334%,#d32011 66.6666%,#007a36 66.6667%);
+    width: 22.5em;
+    height: 15em;
+    position: relative;
+}
+
+    #afghanistan .national-emblem {
+        height: 11.5em;
+        width: 11.5em;
+        left: 5.5em;
+        top: 1.75em;
+        position: absolute;
+    }

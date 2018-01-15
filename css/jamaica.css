@@ -1,0 +1,7 @@
+﻿#jamaica {
+    background-color: #000;
+    background: linear-gradient(155deg, #009b3a 20%, transparent 15%) 15em -15em, linear-gradient(-155deg, #009b3a 20%, transparent 15%) 15em -15em, linear-gradient(-25deg, #009b3a 20%, transparent 15%) 15em 15em, linear-gradient(25deg, #009b3a 20%, transparent 15%) 15em 15em, linear-gradient(155deg, black 20%, transparent 15%) 0 -7.5em, linear-gradient(25deg, black 20%, transparent 15%) 0 -7.5em, linear-gradient(-155deg, black 20%, transparent 15%) 30em -7.5em, linear-gradient(-25deg, black 20%, transparent 15%) 30em -7.5em, #fed100;
+    width: 30em;
+    height: 15em;
+    position: relative;
+}

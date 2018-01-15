@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>São Paulo (Brazil)</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Eduardo Claudio Nicacio, https://github.com/EduardoNicacio">
+    <link rel="stylesheet" href="../../css/normalize.css" />
+    <link rel="stylesheet" href="../../css/flags.css" />
+    <link rel="stylesheet" href="br-sp.css" />
+</head>
+<body>
+    <div id="br-sp" class="flag">
+        <div class="red-field">
+            <div class="star star-top-left"></div>
+            <div class="star star-top-right"></div>
+            <div class="star star-bottom-left"></div>
+            <div class="star star-bottom-right"></div>
+            <div class="circle">
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datamaps/0.5.8/datamaps.bra.min.js"></script>
+    <script>
+
+        var map = new Datamap({
+            scope: 'bra',
+            element: document.getElementById('map'),
+            responsive: true,
+            fills: {
+                defaultFill: '#294292'
+            },
+            geographyConfig: {
+                borderWidth: 0,
+                borderColor: '#fff',
+                borderOpacity: .75,
+                highlightOnHover: false,
+                popupOnHover: false
+            },
+            setProjection: function (element) {
+                var projection = d3.geo.equirectangular()
+					.center([-54.51, -12.78])
+					.scale(160)
+					.translate([element.offsetWidth / 2, element.offsetHeight / 2]);
+                var path = d3.geo.path()
+					.projection(projection);
+
+                return {
+                    path: path,
+                    projection: projection
+                };
+            }
+        });
+
+        map.resize();
+
+        // Sesize the map when window resizes
+        $(window).on('resize', function () {
+            map.resize();
+        });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+﻿#br-pi {
+    background-color: #ffd500;
+    background-image: linear-gradient(#56a134 7.69%, transparent 7.69%, transparent 15.38%, #56a134 15.38%, #56a134 23.07%, transparent 23.07%, transparent 30.77%, #56a134 30.77%, #56a134 38.46%, transparent 38.46%, transparent 46.15%, #56a134 46.15%, #56a134 53.85%, transparent 53.85%, transparent 61.54%, #56a134 61.54%, #56a134 69.23%, transparent 69.23%, transparent 76.92%, #56a134 76.92%, #56a134 84.61%, transparent 84.61%, transparent 92.31%, #56a134 92.31%);
+    width: 22.5em;
+    height: 15em;
+    position: relative;
+}
+
+.square {
+    width: 8.65em;
+    height: 5.77em;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #0b1097;
+}
+
+    .square:before {
+        content: '★';
+        color: #fff;
+        line-height: 80.7%;
+        font-size: 5.93em;
+        margin-left: 21.7%;
+    }
+
+.motto {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    position: relative;
+    font-size: .68em;
+    left: 6%;
+    letter-spacing: .015em;
+}

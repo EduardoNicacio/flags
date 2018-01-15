@@ -1,0 +1,8 @@
+#tanzania {
+    background-image: -webkit-linear-gradient(147deg,#1eb53a 39%,#fcd116 39%,#fcd116 43%,#000 43%,#000 57%,#fcd116 57%,#fcd116 61%,#00a3dd 61%);
+    background-image: -o-linear-gradient(147deg,#1eb53a 39%,#fcd116 39%,#fcd116 43%,#000 43%,#000 57%,#fcd116 57%,#fcd116 61%,#00a3dd 61%);
+    background-image: -moz-linear-gradient(147deg,#1eb53a 39%,#fcd116 39%,#fcd116 43%,#000 43%,#000 57%,#fcd116 57%,#fcd116 61%,#00a3dd 61%);
+    background-image: linear-gradient(147deg,#1eb53a 39%,#fcd116 39%,#fcd116 43%,#000 43%,#000 57%,#fcd116 57%,#fcd116 61%,#00a3dd 61%);
+    width: 22.5em;
+    height: 15em;
+}

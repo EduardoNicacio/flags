@@ -1,0 +1,101 @@
+#comoros {
+    position: relative;
+    background-image: -webkit-linear-gradient(#ffc61e 25%,#fff 25%,#fff 50%,#ce1126 50%,#ce1126 75%,#3a75c4 75%);
+    background-image: -o-linear-gradient(#ffc61e 25%,#fff 25%,#fff 50%,#ce1126 50%,#ce1126 75%,#3a75c4 75%);
+    background-image: -moz-linear-gradient(#ffc61e 25%,#fff 25%,#fff 50%,#ce1126 50%,#ce1126 75%,#3a75c4 75%);
+    background-image: linear-gradient(#ffc61e 25%,#fff 25%,#fff 50%,#ce1126 50%,#ce1126 75%,#3a75c4 75%);
+    width: 20.8em;
+    height: 12.5em;
+}
+
+    #comoros .triangle {
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-top: 6.25em solid transparent;
+        border-bottom: 6.25em solid transparent;
+        border-left: 10.4em solid #3d8e33;
+    }
+
+    #comoros .moon {
+        top: 3.3em;
+        left: .7em;
+        width: 6em;
+        height: 5.8em;
+        background: #fff;
+        border-radius: 50%;
+    }
+
+        #comoros .moon .moon-clip {
+            top: 0;
+            left: 1.3em;
+            width: 5.5em;
+            height: 5.8em;
+            background: #3d8e33.3333%;
+            border-radius: 50%;
+        }
+
+        #comoros .moon .star {
+            display: block;
+            left: -1.5em;
+            width: 0;
+            height: 0;
+            border-right: 5em solid transparent;
+            border-bottom: 3.5em solid #fff;
+            border-left: 5em solid transparent;
+            -moz-transform: rotate(35deg) scale(0.1,.1);
+            -webkit-transform: rotate(35deg) scale(0.1,.1);
+            -ms-transform: rotate(35deg) scale(0.1,.1);
+            -o-transform: rotate(35deg) scale(0.1,.1);
+        }
+
+            #comoros .moon .star:before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: -2.25em;
+                left: -3.25em;
+                height: 0;
+                width: 0;
+                border-bottom: 4em solid #fff;
+                border-left: 1.5em solid transparent;
+                border-right: 1.5em solid transparent;
+                -webkit-transform: rotate(-35deg);
+                -moz-transform: rotate(-35deg);
+                -ms-transform: rotate(-35deg);
+                -o-transform: rotate(-35deg);
+            }
+
+            #comoros .moon .star:after {
+                content: '';
+                display: block;
+                position: absolute;
+                top: .3em;
+                left: -5.25em;
+                width: 0;
+                height: 0;
+                border-right: 5em solid transparent;
+                border-bottom: 3.5em solid #fff;
+                border-left: 5em solid transparent;
+                -webkit-transform: rotate(-70deg);
+                -moz-transform: rotate(-70deg);
+                -ms-transform: rotate(-70deg);
+                -o-transform: rotate(-70deg);
+            }
+
+        #comoros .moon .star1 {
+            top: -.8em;
+        }
+
+        #comoros .moon .star2 {
+            top: .5em;
+        }
+
+        #comoros .moon .star3 {
+            top: 1.9em;
+        }
+
+        #comoros .moon .star4 {
+            top: 3.2em;
+        }

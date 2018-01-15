@@ -1,0 +1,60 @@
+﻿#us-az {
+    width: 22.5em;
+    height: 15em;
+    position: relative;
+}
+
+#stripes {
+    width: 22.5em;
+    height: 15em;
+    top: 0;
+    left: 0em;
+    position: absolute;
+}
+
+#us-az:after {
+    content: '★';
+    color: #ce5c17;
+    font-size: 10.55em;
+    line-height: 100%;
+    left: .65em;
+    top: .2125em;
+    position: absolute;
+    z-index: 3;
+}
+
+#bottom {
+    background-color: #002868;
+    width: 22.5em;
+    height: 7.5em;
+    top: 7.5em;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+.starburst {
+    /* GLOBAL */
+    position: relative;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+    .starburst * {
+        /* CHILDREN */
+        position: relative;
+        z-index: 1;
+    }
+
+.starburst--top {
+    /* ALIGNMENT TOP */
+    background-image: linear-gradient(180deg, transparent 50%, #fed700 50%), linear-gradient(193.846deg, transparent 50%, #bf0a30 50%), linear-gradient(207.692deg, transparent 50%, #fed700 50%), linear-gradient(221.538deg, transparent 50%, #bf0a30 50%), linear-gradient(235.384deg, transparent 50%, #fed700 50%), linear-gradient(249.23deg, transparent 50%, #bf0a30 50%), linear-gradient(263.076deg, transparent 50%, #fed700 50%), linear-gradient(276.922deg, transparent 50%, #bf0a30 50%), linear-gradient(290.768deg, transparent 50%, #fed700 50%), linear-gradient(304.614deg, transparent 50%, #bf0a30 50%), linear-gradient(318.46deg, transparent 50%, #fed700 50%), linear-gradient(332.306deg, transparent 50%, #bf0a30 50%), linear-gradient(346.152deg, transparent 50%, #fed700 50%), linear-gradient(360deg, transparent 50%, #bf0a30 50%);
+    position: relative;
+    background-repeat: no-repeat;
+    background-color: #fed700;
+}
+
+    .starburst--top::before,
+    .starburst--top::after {
+        z-index: 1;
+    }

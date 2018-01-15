@@ -1,0 +1,48 @@
+﻿#br-mt {
+    background-color: #28166f;
+    width: 21.42em;
+    height: 15em;
+    position: relative;
+}
+
+.white-top {
+    width: .001em;
+    height: .001em;
+    border: solid 8.9em transparent;
+    border-bottom: solid 5.67em #fff;
+    border-top-width: 0;
+    position: absolute;
+    top: 1.83em;
+    left: 1.82em;
+}
+
+.white-bottom {
+    width: .001em;
+    height: .001em;
+    border: solid 8.9em transparent;
+    border-top: solid 5.67em #fff;
+    border-bottom-width: 0;
+    position: absolute;
+    top: 7.5em;
+    left: 1.82em;
+}
+
+.green-circle {
+    background-color: #00923f;
+    height: 7.5em;
+    width: 7.5em;
+    border-radius: 50%;
+    left: 6.96em;
+    top: 3.75em;
+    position: absolute;
+}
+
+    .green-circle:after {
+        content: '★';
+        color: #f8c300;
+        line-height: 100%;
+        font-size: 9.68em;
+        margin-top: -.147em;
+        margin-left: -.028em;
+        position: absolute;
+    }

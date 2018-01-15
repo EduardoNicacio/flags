@@ -1,0 +1,69 @@
+﻿#br-sp {
+    background-color: #fff;
+    background-image: linear-gradient(#212125 7.69%, transparent 7.69%, transparent 15.38%, #212125 15.38%, #212125 23.07%, transparent 23.07%, transparent 30.77%, #212125 30.77%, #212125 38.46%, transparent 38.46%, transparent 46.15%, #212125 46.15%, #212125 53.85%, transparent 53.85%, transparent 61.54%, #212125 61.54%, #212125 69.23%, transparent 69.23%, transparent 76.92%, #212125 76.92%, #212125 84.61%, transparent 84.61%, transparent 92.31%, #212125 92.31%);
+    height: 15em;
+    width: 22.5em;
+    position: relative;
+}
+
+.red-field {
+    top: 0;
+    left: 0;
+    width: 38.45%;
+    height: 38.45%;
+    position: absolute;
+    background-color: #c40008;
+}
+
+.circle {
+    width: 4.6em;
+    height: 4.6em;
+    border-radius: 50%;
+    left: 2em;
+    top: .6em;
+    position: absolute;
+    background-color: #fff;
+}
+
+#map {
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    margin: .3em !important;
+    padding: 0 !important;
+    position: relative;
+    z-index: 9999;
+}
+
+.star {
+    color: #ffec00;
+    font-size: 2.1em;
+}
+
+    .star:after {
+        content: '★';
+    }
+
+.star-top-left {
+    left: .125em;
+    top: -.225em;
+    position: absolute;
+}
+
+.star-top-right {
+    right: .125em;
+    top: -.225em;
+    position: absolute;
+}
+
+.star-bottom-left {
+    left: .125em;
+    bottom: -.025em;
+    position: absolute;
+}
+
+.star-bottom-right {
+    right: .125em;
+    bottom: -.025em;
+    position: absolute;
+}

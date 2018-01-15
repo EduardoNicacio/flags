@@ -1,0 +1,23 @@
+﻿#india {
+    background-image: -webkit-linear-gradient(rgb(255,153,51) 0%, rgb(255,153,51) 33.3333%, rgb(255,255,255) 33.3333%, rgb(255,255,255) 66.6667%, rgb(19,136,8) 66.6667%);
+    background-image: -o-linear-gradient(rgb(255,153,51) 0%, rgb(255,153,51) 33.3333%, rgb(255,255,255) 33.3333%, rgb(255,255,255) 66.6667%, rgb(19,136,8) 66.6667%);
+    background-image: -moz-linear-gradient(rgb(255,153,51) 0%, rgb(255,153,51) 33.3333%, rgb(255,255,255) 33.3333%, rgb(255,255,255) 66.6667%, rgb(19,136,8) 66.6667%);
+    background-image: linear-gradient(rgb(255,153,51) 0%, rgb(255,153,51) 33.3333%, rgb(255,255,255) 33.3333%, rgb(255,255,255) 66.6667%, rgb(19,136,8) 66.6667%);
+    width: 22.5em;
+    height: 15em;
+}
+
+.ashoka-chakra {
+    width: 4em;
+    height: 4em;
+    left: 50%;
+    margin-left: -2em;
+    margin-top: 5.5em;
+}
+
+    .ashoka-chakra img {
+        width: 103%;
+        height: 103%;
+        left: -1.5%;
+        top: -1.5%;
+    }

@@ -1,0 +1,76 @@
+﻿#new-zealand {
+    background: #00008b;
+    width: 25em;
+    height: 12.5em;
+    position: relative;
+}
+
+    #new-zealand:before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        background: linear-gradient(to bottom, transparent 40%, red 40%, red 60%, transparent 60%), linear-gradient(to right, transparent 45%, red 45%, red 55%, transparent 55%), linear-gradient(to bottom, transparent 35%, white 35%, white 65%, transparent 65%), linear-gradient(to right, transparent 40%, white 40%, white 60%, transparent 60%), linear-gradient(155deg, transparent 50%, red 50%, red 53%, transparent 53%) -50% 51.67%, linear-gradient(155deg, transparent 50%, red 50%, red 53%, transparent 53%) 51.11% -58.33%, linear-gradient(25deg, transparent 50%, red 50%, red 53%, transparent 53%) -56.67% -51.66%, linear-gradient(25deg, transparent 50%, red 50%, red 53%, transparent 53%) 53.33% 53.33%, linear-gradient(155deg, transparent 45%, white 45%, white 55%, transparent 55%), linear-gradient(25deg, transparent 45%, white 45%, white 55%, transparent 55%);
+        background-size: 12.5em 6.25em;
+        width: 12.5em;
+        height: 6.25em;
+        background-repeat: no-repeat;
+    }
+
+/*
+    The location of the stars is as follows:[18]
+
+    Commonwealth Star – 7-pointed star, centred in lower hoist.[18]
+    Alpha Crucis – 7-pointed star, straight below centre fly  1⁄6 up from bottom edge.[18]
+    Beta Crucis – 7-pointed star,  1⁄4 of the way left and  1⁄16 up from the centre fly.[18]
+    Gamma Crucis – 7-pointed star, straight above centre fly  1⁄6 down from top edge.[18]
+    Delta Crucis – 7-pointed star,  2⁄9 of the way right and  31⁄240 up from the centre fly.[18]
+    Epsilon Crucis – 5-pointed star,  1⁄10 of the way right and  1⁄24 down from the centre fly.[18]
+
+*/
+
+.star {
+    color: white;
+    line-height: 100%;
+}
+
+    .star:before {
+        content: '\2605';
+    }
+
+.star-1 {
+    font-size: 2.85em;
+}
+
+.star-2 {
+    font-size: 2.5em;
+}
+
+.star-3 {
+    font-size: 2.3em;
+}
+
+.alpha-crucis {
+    top: 9.5%;
+    left: 70.85%;
+}
+
+.beta-crucis {
+    top: 32.55%;
+    left: 59.28%;
+}
+
+.gamma-crucis {
+    top: 27.5%;
+    left: 81.05%;
+}
+
+.delta-crucis {
+    top: 68%;
+    left: 70.3%;
+}
+
+.red {
+    color: red;
+    transform: scale(.75);
+}

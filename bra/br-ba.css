@@ -1,0 +1,24 @@
+﻿#br-ba {
+    background-color: #fff;
+    background-image: linear-gradient(transparent 25%, #c8140a 25%, #c8140a 50%, transparent 50%, transparent 75%, #c8140a 75%);
+    width: 22.5em;
+    height: 15em;
+    position: relative;
+}
+
+    #br-ba .square {
+        top: 0;
+        left: 0;
+        width: 7.5em;
+        height: 7.5em;
+        position: absolute;
+        background-color: #0a14c8;
+    }
+
+        #br-ba .square:after {
+            content: '\25B2';
+            color: #fff;
+            line-height: 97.5%;
+            font-size: 7.4em;
+            margin-left: 1%;
+        }

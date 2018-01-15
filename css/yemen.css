@@ -1,0 +1,8 @@
+#yemen {
+    background-image: -webkit-linear-gradient(#ce1126 33.3333%,#fff 33.3333%,#fff 66%,#000 66%);
+    background-image: -moz-linear-gradient(#ce1126 33.3333%,#fff 33.3333%,#fff 66%,#000 66%);
+    background-image: -o-linear-gradient(#ce1126 33.3333%,#fff 33.3333%,#fff 66%,#000 66%);
+    background-image: linear-gradient(#ce1126 33.3333%,#fff 33.3333%,#fff 66%,#000 66%);
+    width: 22.5em;
+    height: 15em;
+}

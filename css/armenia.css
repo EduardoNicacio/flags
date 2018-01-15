@@ -1,0 +1,8 @@
+#armenia {
+    background-image: -webkit-linear-gradient(#d90012 33.3333%,#0033a0 33.3333%,#0033a0 66.6667%,#f2a800 66.6667%);
+    background-image: -o-linear-gradient(#d90012 33.3333%,#0033a0 33.3333%,#0033a0 66.6667%,#f2a800 66.6667%);
+    background-image: -moz-linear-gradient(#d90012 33.3333%,#0033a0 33.3333%,#0033a0 66.6667%,#f2a800 66.6667%);
+    background-image: linear-gradient(#d90012 33.3333%,#0033a0 33.3333%,#0033a0 66.6667%,#f2a800 66.6667%);
+    width: 20em;
+    height: 10em;
+}

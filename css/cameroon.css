@@ -1,0 +1,58 @@
+#cameroon {
+    position: relative;
+    background-image: -webkit-linear-gradient(90deg,#007a5e 33.3333%,#ce1126 33.3333%,#ce1126 66.6667%,#fcd116 66.6667%);
+    background-image: -o-linear-gradient(90deg,#007a5e 33.3333%,#ce1126 33.3333%,#ce1126 66.6667%,#fcd116 66.6667%);
+    background-image: -moz-linear-gradient(90deg,#007a5e 33.3333%,#ce1126 33.3333%,#ce1126 66.6667%,#fcd116 66.6667%);
+    background-image: linear-gradient(90deg,#007a5e 33.3333%,#ce1126 33.3333%,#ce1126 66.6667%,#fcd116 66.6667%);
+    width: 22.5em;
+    height: 15em;
+}
+
+    #cameroon .star {
+        display: block;
+        top: 5.7em;
+        left: 6.3em;
+        width: 0;
+        height: 0;
+        border-right: 5em solid transparent;
+        border-bottom: 3.5em solid #fcd116;
+        border-left: 5em solid transparent;
+        -moz-transform: rotate(35deg) scale(0.46,.46);
+        -webkit-transform: rotate(35deg) scale(0.46,.46);
+        -ms-transform: rotate(35deg) scale(0.46,.46);
+        -o-transform: rotate(35deg) scale(0.46,.46);
+    }
+
+        #cameroon .star:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: -2.35em;
+            left: -3.25em;
+            height: 0;
+            width: 0;
+            border-bottom: 4em solid #fcd116;
+            border-left: 1.5em solid transparent;
+            border-right: 1.5em solid transparent;
+            -webkit-transform: rotate(-35deg);
+            -moz-transform: rotate(-35deg);
+            -ms-transform: rotate(-35deg);
+            -o-transform: rotate(-35deg);
+        }
+
+        #cameroon .star:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: .26em;
+            left: -5.38em;
+            width: 0;
+            height: 0;
+            border-right: 5em solid transparent;
+            border-bottom: 3.5em solid #fcd116;
+            border-left: 5em solid transparent;
+            -webkit-transform: rotate(-70deg);
+            -moz-transform: rotate(-70deg);
+            -ms-transform: rotate(-70deg);
+            -o-transform: rotate(-70deg);
+        }

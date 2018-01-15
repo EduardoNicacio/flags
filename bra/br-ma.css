@@ -1,0 +1,24 @@
+﻿#br-ma {
+    background-color: #fff;
+    background-image: linear-gradient(#f00 11.11%, #fff 11.11%, #fff 22.22%, #000 22.22%, #000 33.33%, #fff 33.33%, #fff 44.44%, #f00 44.44%, #f00 55.55%, #fff 55.55%, #fff 66.66%, #000 66.66%, #000 77.77%, #fff 77.77%, #fff 88.88%, #f00 88.88%);
+    width: 22.5em;
+    height: 15em;
+    position: relative;
+}
+
+    #br-ma .square {
+        background-color: #190096;
+        height: 7.5em;
+        width: 7.5em;
+        left: 0;
+        top: 0;
+        position: absolute;
+    }
+
+        #br-ma .square:after {
+            content: '★';
+            color: #fff;
+            line-height: 96%;
+            font-size: 7.35em;
+            margin-left: 9%;
+        }

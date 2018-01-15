@@ -1,0 +1,83 @@
+﻿#australia {
+    background: #00008b;
+    width: 25em;
+    height: 12.5em;
+    position: relative;
+}
+
+    #australia:before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        background: linear-gradient(to bottom, transparent 40%, red 40%, red 60%, transparent 60%), linear-gradient(to right, transparent 45%, red 45%, red 55%, transparent 55%), linear-gradient(to bottom, transparent 35%, white 35%, white 65%, transparent 65%), linear-gradient(to right, transparent 40%, white 40%, white 60%, transparent 60%), linear-gradient(155deg, transparent 50%, red 50%, red 53%, transparent 53%) -50% 51.67%, linear-gradient(155deg, transparent 50%, red 50%, red 53%, transparent 53%) 51.11% -58.33%, linear-gradient(25deg, transparent 50%, red 50%, red 53%, transparent 53%) -56.67% -51.66%, linear-gradient(25deg, transparent 50%, red 50%, red 53%, transparent 53%) 53.33% 53.33%, linear-gradient(155deg, transparent 45%, white 45%, white 55%, transparent 55%), linear-gradient(25deg, transparent 45%, white 45%, white 55%, transparent 55%);
+        background-size: 12.5em 6.25em;
+        width: 12.5em;
+        height: 6.25em;
+        background-repeat: no-repeat;
+    }
+
+.star {
+    color: white;
+    line-height: 100%;
+}
+
+    .star:before {
+        content: '\2738';
+    }
+
+.star-five {
+    color: white;
+    line-height: 100%;
+}
+
+    .star-five:before {
+        content: '\2605';
+    }
+
+.star-1 {
+    font-size: 5em;
+}
+
+.star-2 {
+    font-size: 2em;
+}
+
+.star-3 {
+    font-size: 1.3em;
+}
+
+#commonwealth-star {
+    transform: rotate(22.5deg);
+    top: 55%;
+    left: 16%;
+}
+
+#alpha-crucis {
+    transform: rotate(22.5deg);
+    top: 9%;
+    left: 71.45%;
+}
+
+#beta-crucis {
+    transform: rotate(22.5deg);
+    top: 36%;
+    left: 58.9%;
+}
+
+#gamma-crucis {
+    transform: rotate(22.5deg);
+    top: 29.5%;
+    left: 82.5%;
+}
+
+#delta-crucis {
+    transform: rotate(22.5deg);
+    top: 76%;
+    left: 71.4%;
+}
+
+#epsilon-crucis {
+    top: 48.5%;
+    left: 77.8%;
+}

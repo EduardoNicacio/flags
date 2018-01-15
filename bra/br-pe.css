@@ -1,0 +1,44 @@
+﻿#br-pe {
+    background-color: #101070;
+    background-image: linear-gradient(transparent 57%, #fff 57%);
+    width: 21.42em;
+    height: 15em;
+    position: relative;
+}
+
+.star {
+    color: #fcf10c;
+    font-size: 160%;
+    left: 50%;
+    line-height: 128%;
+    margin-left: -.415em;
+}
+
+.rainbow {
+    position: absolute;
+    top: 2.15em;
+    width: 21.42em;
+    height: 21.42em;
+    border-radius: 50%;
+    background: rgba(255,255,0,.5);
+    background: radial-gradient( transparent 60%, #1d7721 60%, #1d7721 63.33%, #fcf10c 63.33%, #fcf10c 66.66%, #e6060a 66.66%, #e6060a 70%, transparent 70%);
+    clip: rect(0, 21.42em, 6.4em, 0);
+}
+
+.cross {
+    color: #e6060a;
+    font-size: 530%;
+    font-weight: bold;
+    left: 50%;
+    line-height: 448%;
+    margin-left: -.313em;
+}
+
+.sun {
+    color: #fcf10c;
+    font-size: 505%;
+    left: 50%;
+    line-height: 100%;
+    margin-left: -.445em;
+    margin-top: 17.5%;
+}

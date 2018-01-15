@@ -1,0 +1,8 @@
+#czech-republic {
+    background-image: linear-gradient(35deg,#11457e 50%,transparent 50%),linear-gradient(-35deg,transparent 50%,#11457e 50%),linear-gradient(#fff 50%,#d7141a 50%);
+    background-size: 11em 7.5em,11em 7.5em,22.5em 15em;
+    background-position: 0 0,0 7.5em,0 0;
+    background-repeat: no-repeat,no-repeat,repeat;
+    width: 22.5em;
+    height: 15em;
+}

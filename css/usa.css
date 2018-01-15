@@ -1,0 +1,66 @@
+﻿#usa {
+    background-color: #fff;
+    height: 10em;
+    position: relative;
+    width: 19em;
+}
+
+#fieldofblue {
+    background-color: #002868;
+    height: 5.4em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 7.6em;
+}
+
+.inner {
+    height: 6em;
+    overflow: hidden;
+    position: relative;
+    top: 0.14em;
+    left: 0.34em;
+    width: 8em;
+}
+
+.star {
+    float: left;
+    height: 0.62em;
+    margin: 0 0.650em -0.09em 0;
+    width: 0.64em;
+}
+
+    .star span {
+        color: white;
+        display: block;
+        font-size: 0.667em;
+    }
+
+div.row {
+    clear: left;
+    position: relative;
+    left: 0.65em;
+}
+
+    div.row:first-child {
+        top: 0;
+        left: 0;
+    }
+
+    div.row:nth-child(odd) {
+        left: 0;
+    }
+
+#thirteen-colonies div.stripe {
+    background-color: #fff;
+    height: 0.769em;
+}
+
+    #thirteen-colonies div.stripe:nth-child(odd) {
+        background-color: #bf0a30;
+    }
+
+    #thirteen-colonies div.stripe:nth-child(8) {
+        position: relative;
+        z-index: 99;
+    }

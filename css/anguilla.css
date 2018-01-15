@@ -1,0 +1,26 @@
+﻿#anguilla {
+    background: rgb(0,36,125);
+    width: 25em;
+    height: 12.5em;
+    position: relative;
+}
+
+    #anguilla:before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        background: linear-gradient(to bottom, transparent 40%, rgb(207,20,43) 40%, rgb(207,20,43) 60%, transparent 60%), linear-gradient(to right, transparent 45%, rgb(207,20,43) 45%, rgb(207,20,43) 55%, transparent 55%), linear-gradient(to bottom, transparent 35%, white 35%, white 65%, transparent 65%), linear-gradient(to right, transparent 40%, white 40%, white 60%, transparent 60%), linear-gradient(155deg, transparent 50%, rgb(207,20,43) 50%, rgb(207,20,43) 53%, transparent 53%) -50% 51.67%, linear-gradient(155deg, transparent 50%, rgb(207,20,43) 50%, rgb(207,20,43) 53%, transparent 53%) 51.11% -58.33%, linear-gradient(25deg, transparent 50%, rgb(207,20,43) 50%, rgb(207,20,43) 53%, transparent 53%) -56.67% -51.66%, linear-gradient(25deg, transparent 50%, rgb(207,20,43) 50%, rgb(207,20,43) 53%, transparent 53%) 53.33% 53.33%, linear-gradient(155deg, transparent 45%, white 45%, white 55%, transparent 55%), linear-gradient(25deg, transparent 45%, white 45%, white 55%, transparent 55%);
+        background-size: 12.5em 6.25em;
+        width: 12.5em;
+        height: 6.25em;
+        background-repeat: no-repeat;
+    }
+
+    #anguilla .coat-of-arms {
+        left: 65%;
+        top: 25%;
+        height: 6.25em;
+        position: absolute;
+        opacity: 1;
+    }

@@ -1,0 +1,41 @@
+﻿#br-mg {
+    background-color: #fff;
+    width: 21.42em;
+    height: 15em;
+    position: relative;
+}
+
+    #br-mg .red-triangle {
+        width: .001em;
+        height: .001em;
+        border: solid 4.3em transparent;
+        border-bottom: solid 7.5em #f00;
+        border-top-width: 0;
+        position: absolute;
+        top: 3.25em;
+        left: 30%;
+    }
+
+    #br-mg span {
+        font-size: 120%;
+        letter-spacing: .02em;
+        position: absolute;
+    }
+
+.left {
+    transform: rotate(-60deg);
+    left: 23.25%;
+    line-height: 11.035em;
+}
+
+.right {
+    transform: rotate(60deg);
+    left: 47.4%;
+    line-height: 11.09em;
+}
+
+.bottom {
+    left: 40.2%;
+    bottom: 2.3em;
+    letter-spacing: .033em !important;
+}

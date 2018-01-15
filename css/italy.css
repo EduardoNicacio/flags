@@ -1,0 +1,8 @@
+#italy {
+    background-image: -webkit-linear-gradient(90deg,#009246 33.3333%,#fff 33.3334%,#fff 66.6666%,#ce2b37 66.6667%);
+    background-image: -o-linear-gradient(90deg,#009246 33.3333%,#fff 33.3334%,#fff 66.6666%,#ce2b37 66.6667%);
+    background-image: -moz-linear-gradient(90deg,#009246 33.3333%,#fff 33.3334%,#fff 66.6666%,#ce2b37 66.6667%);
+    background-image: linear-gradient(90deg,#009246 33.3333%,#fff 33.3334%,#fff 66.6666%,#ce2b37 66.6667%);
+    width: 22.5em;
+    height: 15em;
+}

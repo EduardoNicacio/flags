@@ -1,0 +1,264 @@
+﻿#brazil {
+    background-color: #009b3a;
+    width: 20em;
+    height: 14em;
+    position: relative;
+}
+
+.yellow-top {
+    width: .001em;
+    height: .001em;
+    border: solid 8.3em transparent;
+    border-bottom: solid 5.3em #fedf00;
+    border-top-width: 0;
+    position: absolute;
+    top: 1.7em;
+    left: 1.7em;
+}
+
+.yellow-bottom {
+    width: .001em;
+    height: .001em;
+    border: solid 8.3em transparent;
+    border-top: solid 5.3em #fedf00;
+    border-bottom-width: 0;
+    position: absolute;
+    top: 7em;
+    left: 1.7em;
+}
+
+.blue-bg {
+    width: 7em;
+    height: 7em;
+    background: #002776;
+    border-radius: 50%;
+    position: absolute;
+    top: 3.5em;
+    left: 6.5em;
+    overflow: hidden;
+}
+
+.white-stripe {
+    width: 17em;
+    height: 17em;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2em;
+    left: -7em;
+}
+
+.motto {
+    color: #009b3a;
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size: .43em;
+    font-weight: bold;
+    letter-spacing: .275em;
+    position: relative;
+}
+
+.blue-bottom {
+    width: 16em;
+    height: 16em;
+    background: #002776;
+    border-radius: 50%;
+    position: absolute;
+    top: 2.5em;
+    left: -6.5em;
+}
+
+.stars li {
+    margin: 0;
+    margin-top: -1.05em;
+    padding: 0;
+    list-style: none;
+    color: #fff;
+    position: absolute;
+    transform: scale(1.2);
+}
+
+    .stars li:before {
+        content: "\2605";
+    }
+
+.star-1:before {
+    font-size: 0.3em;
+}
+
+.star-2:before {
+    font-size: 0.25em;
+}
+
+.star-3:before {
+    font-size: 0.2em;
+}
+
+.star-4:before {
+    font-size: 0.14em;
+}
+
+.star-5:before {
+    font-size: 0.1em;
+}
+
+#procion {
+    top: 2.05em;
+    left: .525em;
+    position: absolute;
+}
+
+#alphard {
+    top: 2.8em;
+    left: 2.05em;
+    position: absolute;
+}
+
+#muliphen {
+    top: 3.25em;
+    left: 1.225em;
+    position: absolute;
+}
+
+#sirio {
+    top: 3.525em;
+    left: .825em;
+    position: absolute;
+}
+
+#mirzam {
+    top: 3.825em;
+    left: 0.425em;
+    position: absolute;
+}
+
+#wezen {
+    top: 3.85em;
+    left: 1.575em;
+    position: absolute;
+}
+
+#adhara {
+    top: 4.175em;
+    left: 1.49em;
+    position: absolute;
+}
+
+#canopus {
+    top: 4.525em;
+    left: 1.975em;
+    position: absolute;
+}
+
+#gracus {
+    top: 3.225em;
+    left: 3.4em;
+    position: absolute;
+}
+
+#palida {
+    top: 3.525em;
+    left: 3.05em;
+    position: absolute;
+}
+
+#intrometida {
+    top: 3.74em;
+    left: 3.25em;
+    position: absolute;
+}
+
+#mimosa {
+    top: 3.53em;
+    left: 3.79em;
+    position: absolute;
+}
+
+#acrux {
+    top: 4.25em;
+    left: 3.37em;
+    position: absolute;
+}
+
+#polaris-australis {
+    top: 5.35em;
+    left: 3.45em;
+    position: absolute;
+}
+
+#tra-1 {
+    top: 4.6em;
+    left: 4.19em;
+    position: absolute;
+}
+
+#atria {
+    top: 5.025em;
+    left: 4.43em;
+    position: absolute;
+}
+
+#tra-2 {
+    top: 4.7em;
+    left: 4.76em;
+    position: absolute;
+}
+
+#apollyon {
+    top: 5.26em;
+    left: 5.16em;
+    position: absolute;
+}
+
+#sargas {
+    top: 4.93em;
+    left: 5.14em;
+    position: absolute;
+}
+
+#denebakrab {
+    top: 4.575em;
+    left: 5.15em;
+    position: absolute;
+}
+
+#girtab {
+    top: 4.64em;
+    left: 5.52em;
+    position: absolute;
+}
+
+#shaula {
+    top: 4.48em;
+    left: 5.77em;
+    position: absolute;
+}
+
+#wei {
+    top: 4.205em;
+    left: 5.98em;
+    position: absolute;
+}
+
+#antares {
+    top: 3.91em;
+    left: 5.82em;
+    position: absolute;
+}
+
+#graffias {
+    top: 3.91em;
+    left: 6.35em;
+    position: absolute;
+}
+
+#dhanab-al-shuja {
+    top: 2.47em;
+    left: 4.36em;
+    position: absolute;
+}
+
+#spica {
+    top: 1.58em;
+    left: 4.46em;
+    position: absolute;
+}

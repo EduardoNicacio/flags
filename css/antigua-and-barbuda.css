@@ -1,0 +1,53 @@
+﻿#antigua-and-barbuda {
+    background-color: #000;
+    width: 22.5em;
+    height: 15em;
+    position: relative;
+}
+
+    #antigua-and-barbuda .sun {
+        color: #fcd116;
+        font-size: 13em;
+        font-weight: lighter;
+        z-index: 0;
+        line-height: 100%;
+        left: 50%;
+        margin-left: -.45em;
+        top: -.044em;
+        z-index: 0;
+    }
+
+        #antigua-and-barbuda .sun.sun-2 {
+            transform: rotate(22.5deg);
+        }
+
+.stripes {
+    background-image: -webkit-linear-gradient(transparent 39.4%,#0072c6 39.4%,#0072c6 61%,#fff 61%);
+    background-image: -o-linear-gradient(transparent 39.4%,#0072c6 39.4%,#0072c6 61%,#fff 61%);
+    background-image: -moz-linear-gradient(transparent 39.4%,#0072c6 39.4%,#0072c6 61%,#fff 61%);
+    background-image: linear-gradient(transparent 39.4%,#0072c6 39.4%,#0072c6 61%,#fff 61%);
+    width: 22.5em;
+    height: 15em;
+    position: relative;
+    z-index: 1;
+}
+
+.triangle-bottomleft {
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 15em solid #ce1126;
+    border-right: 11.25em solid transparent;
+    z-index: 2;
+}
+
+.triangle-bottomright {
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 15em solid #ce1126;
+    border-left: 11.25em solid transparent;
+    z-index: 2;
+}

@@ -1,0 +1,15 @@
+﻿#br-ac {
+    background-color: #f3e718;
+    background-image: linear-gradient(145deg, #f3e718 50%, #00994c 50%);
+    width: 21.428em;
+    height: 15em;
+    position: relative;
+}
+
+    #br-ac:after {
+        content: '★';
+        color: #cc0000;
+        line-height: 110%;
+        font-size: 5.55em;
+        margin-left: 4.1%;
+    }
